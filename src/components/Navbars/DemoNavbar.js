@@ -101,10 +101,10 @@ class Header extends React.Component {
   componentDidMount() {
     window.addEventListener("resize", this.updateColor.bind(this));
     console.log('hi')
-    axios.get('http://localhost:5000/auth/google/callback')
+    axios.get('https://cors-anywhere.herokuapp.com/https://socdashboard.herokuapp.com/auth/google/callback')
         .then(response => {
             console.log('hello')
-            this.setState({ user: response.data });
+            this.setState({ user: response });
             console.log(this.state.user);
         })
         .catch(function (error){

@@ -27,6 +27,9 @@ class Dashboard extends React.Component {
                 <CardHeader>
                   <CardTitle tag="h5">WELCOME TO OUR WORKSHOP</CardTitle>
                   <p className="card-category">THIS IS A 2 WEEK WORKSHOP</p>
+                  <p className="card-category">After every week you will have an assessment to check your understanding</p>
+                  <p className="card-category">After this workshop, you will get a basic idea about web devolepment</p>
+                  <p className="card-category">Proceed to dashboard and find links for Week1 and Week2</p>
                 </CardHeader>
                
                 <CardFooter>
